@@ -1,0 +1,86 @@
+body {
+    background-color: #eaeaeb;
+    margin-left: auto;
+    margin-right: auto;
+}
+section{
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+#columns{
+    padding-top: 3em;;
+    left:auto;
+    right:auto;
+    margin:auto;
+    text-align: center;
+    display: inline-block;
+}
+
+#header-content{
+    text-align: center;
+}
+h1{
+    color: #2B4162;
+    font-size: 4.0rem;
+    font-family: 'Pacifico', serif;
+    padding-top: 0;
+    padding-bottom: .1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 3.0rem;
+    width: 6em;
+}
+h2{
+    color:#084936;
+    line-height: .2em;
+}
+h3{
+    line-height: .5em;
+    width: 20em;
+}
+.based{
+    display: inline-block;
+    width:25rem;
+    margin-bottom: 0;
+    line-height: 2.0rem;
+}
+.content-container{
+    text-align: center;
+    width: 15em;
+    
+}
+.content-div{
+    text-align: left;
+    display: inline-block;
+}
+
+dl{
+    font-family: 'Georgia', serif;
+    color: #04251B;
+}
+dd{
+    font-size: 1em;
+    width:20em;
+}
+dt{
+    width: 19em;
+}
+#logos{
+    width: 4em;
+}
+.personal-links{
+    margin-right:2.0em;
+    display: inline-block;
+}
+.gitlogo{
+    position: relative;
+    top:.5em;
+}
+.LI-Logo{
+    position: relative;
+    top:.2em;
+}
