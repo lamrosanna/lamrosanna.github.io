@@ -1,5 +1,6 @@
 body {
     background-color: #eaeaeb;
+    height: 675px
 }
 section{
     display: flex;
@@ -17,6 +18,7 @@ section{
 }
 #header{
     width:24em;
+    text-align: center;
 }
 #header-content{
     text-align: center;
@@ -33,10 +35,6 @@ h1{
     line-height: 3.0rem;
     width: 6em;
 }
-h2{
-    color:#084936;
-    line-height: .2em;
-}
 h3{
     line-height: 1em;
     width: 17em;
@@ -46,8 +44,6 @@ h3{
     width:20em;
     margin-bottom: 0;
     line-height: 2.0rem;
-    
-
 }
 .content-container{
     text-align: center;
@@ -72,16 +68,27 @@ dt{
 #logos{
     width: 4em;
 }
+
+h2{
+    color:#084936;
+    line-height: .2em;
+    text-align: left;
+}
+.footer{
+    width: 20em;
+    margin:auto;
+    
+}
 .personal-links{
-    margin-right:2.0em;
+    position: relative;
+    margin-right:2.8em;
     display: inline-block;
+    width: 2em;
 }
 .gitlogo{
-    position: relative;
     top:.5em;
 }
 .LI-Logo{
-    position: relative;
     top:.2em;
 }
 a:link{
