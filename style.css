@@ -1,28 +1,27 @@
 body {
     background-color: #eaeaeb;
-    height: 675px
+    padding-bottom: 3em;
+    height: auto;
+    width: auto;
 }
 section{
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
 }
-#columns{
-    width:20em;
-    padding-top: 3em;;
+#body-container{
+    width:auto;
+    padding-top: 3em;
     margin:auto;
     text-align: center;
     display: inline-block;
 }
-#header{
-    width:24em;
+.header{
+    width:25em;
     text-align: center;
 }
 #header-content{
     text-align: center;
-    width:24em;
+    margin:auto;
+    width: fit-content;
 }
 h1{
     color: #2B4162;
@@ -47,13 +46,20 @@ h3{
 }
 .content-container{
     text-align: center;
-    width: 15em;
+    margin: auto;
+    padding-top: 1em;
 }
 .content-div{
+    margin: auto;
     text-align: left;
     display: inline-block;
+    padding-left:5%;
+    padding-right:5%;
+    border-radius:5px;
+    border-style:groove;
+    border-color: #2B4162;
+    background-color: #d5d5d7;
 }
-
 dl{
     font-family: 'Georgia', serif;
     color: #04251B;
@@ -63,26 +69,31 @@ dd{
     width:20em;
 }
 dt{
+    color:#2B4162;
     width: 19em;
 }
 #logos{
     width: 4em;
 }
-
 h2{
     color:#084936;
     line-height: .2em;
     text-align: left;
 }
 .footer{
-    width: 20em;
+    padding-top:1em;
+    width: auto;
     margin:auto;
-    
+    height: auto;
+}
+.footer-links{
+    width: 100%;
 }
 .personal-links{
     position: relative;
-    margin-right:2.8em;
+    margin:auto;
     display: inline-block;
+    padding-left:15%;
     width: 2em;
 }
 .gitlogo{
@@ -93,4 +104,14 @@ h2{
 }
 a:link{
     text-decoration: none;
+}
+dl a:visited{
+    color:#2B4162;
+}
+.email-link{
+    width:2em;
+    top:.5em;
+}
+.email-icon{
+    top:.5em;
 }
